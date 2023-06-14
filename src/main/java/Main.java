@@ -16,6 +16,9 @@ public class Main {
 
     private static int fieldSizeX;
     private static int fieldSizeY;
+    /**
+     * Длина ряда, необходимая для победы
+     */
     private static int WIN_COUNT;
     private static int y;
 
@@ -57,8 +60,7 @@ public class Main {
 
         if (isCellValid(x, y) || !isCellEmpty(x, y)) {
             field[x][y] = DOT_HUMAN;
-        }
-        else {
+        } else {
             do {
                 System.out.print("Enter the coordinates of the field (two numbers: finding the field horizontally, then vertically): ");
                 x = SCANNER.nextInt() - 1;
@@ -69,13 +71,13 @@ public class Main {
     }
 
     private static void aiTurn() {
-        int x, y;
-        do {
-            x = RANDOM.nextInt(fieldSizeX);
-            y = RANDOM.nextInt(fieldSizeY);
-        }
-        while (!isCellEmpty(x, y));
-        field[x][y] = DOT_AI;
+            int x, y;
+            do {
+                x = RANDOM.nextInt(fieldSizeX);
+                y = RANDOM.nextInt(fieldSizeY);
+            }
+            while (!isCellEmpty(x, y));
+            field[x][y] = DOT_AI;
     }
 
 

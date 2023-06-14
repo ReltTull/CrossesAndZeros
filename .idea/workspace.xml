@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="402bb09f-cf60-4042-ab11-1031dc36e6d8" name="Changes" comment="Code add">
+    <list default="true" id="402bb09f-cf60-4042-ab11-1031dc36e6d8" name="Changes" comment="humanTurn() update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -69,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686682010267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="humanTurn() update">
+      <created>1686738509920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686738509920</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code add" />
+    <MESSAGE value="humanTurn() update" />
+    <option name="LAST_COMMIT_MESSAGE" value="humanTurn() update" />
   </component>
 </project>
