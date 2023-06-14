@@ -58,6 +58,13 @@ public class Main {
         if (isCellValid(x, y) || !isCellEmpty(x, y)) {
             field[x][y] = DOT_HUMAN;
         }
+        else {
+            do {
+                System.out.print("Enter the coordinates of the field (two numbers: finding the field horizontally, then vertically): ");
+                x = SCANNER.nextInt() - 1;
+                y = SCANNER.nextInt() - 1;
+            } while (!isCellValid(x, y) && isCellEmpty(x, y));
+        }
 
     }
 
@@ -72,10 +79,9 @@ public class Main {
     }
 
 
-
-
-
-
+    /**
+     * отрисовка игрового поля путем двойного цикла
+     */
     private static void printField() {
         System.out.print(" ");
         for (int i = 0; i < fieldSizeY * 2 + 1; i++) {
